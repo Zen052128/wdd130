@@ -70,13 +70,13 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 0px;
     padding: 5px;
     background-color: var(--secondary-color);
     font-size: .8rem;
-    color: #000;
+    color: var(--accent2-color);
 }
 
 .hero article img {
