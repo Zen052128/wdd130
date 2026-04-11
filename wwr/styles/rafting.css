@@ -65,7 +65,7 @@ nav a {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -166,4 +166,79 @@ footer {
 
 .adventure figcaption {
     text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+}
+
+.info h1 {
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+}
+
+.form {
+    flex: 1;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    display: flex;
+}
+
+.input img {
+    display: absolute;
+    width: 400px;
+    height: auto;
+    background: #ddd;
+    margin: 20px;
+}
+
+.team {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+.team h2 {
+    margin-bottom: 15px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee {
+    text-align: center;
+}
+
+.employee img {
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    display: block;
+    margin: 0 auto 5px;
 }
