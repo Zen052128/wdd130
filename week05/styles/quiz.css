@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+main h1 {
+    font-size: 1.5rem;
+    color: darkblue;
+    margin: 0.5rem
+}
+
+form {
+    width: 500px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    color: black;
+    display: grid;
+    border-radius: .3rem;
+}
+
+.quiz-item {
+    padding: 0.5rem;
+    display: grid;
+}
+
+input,
+select,
+textarea {
+    padding: 0.1rem;
+    font-size: 1.1rem;
+    margin: 0.5rem
+}
+
+code {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: rgb(0 0 0 / .7);
+    color: #ddd;
+    place-self: center;
+    width: 80%;
+}
+
+.number {
+    color: darkblue
+}
+
+button {
+    margin: .5rem 1rem 2rem;
+    padding: .8rem;
+    border: 1px solid darkblue;
+    border-radius: .5rem;
+    background-color: darkblue;
+    color: white;
+}
+
+button:hover {
+    background-color: gray;
+}
