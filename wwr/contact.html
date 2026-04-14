@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Above The Water! Contact Section</title>
+    <title>Above The Water! | Contact Section</title>
     <meta name="description"
       content="This page provides the necessary contact information for the website.">
     <meta name="author" content="Kent Zeniff Depaloma">
@@ -23,52 +23,78 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <section class="info">
-            <h1>Above The Water!</h1>
-            <p>7050 Highway 55</p>
-            <p>Horseshoe Bend, Idaho</p>
-            <p>+1 999 999 9999</p>
-            <p>info@abovewater.com</p>
-        </section>
-        <section class="input">
-            <img src="images/location.png">
-            <form class="form">
-                <label for="username">Name</label>
-                <input type="text" id="username" name="username" placeholder="Placeholder">
-
-                <label for="username">Email</label>
-                <input type="email" id="email" name="email" placeholder="Placeholder">
-
-                <label for="message purpose">Message Purpose</label><br>
-                <input type="radio" name="purpose"> General Inquiry<br>
-                <input type="radio" name="purpose"> Reservation Question<br>
-                <input type="radio" name="purpose"> Website Suggestion<br><br>
-
-                <label for="message">Message</label>
-                <textarea placeholder="Type here"></textarea>
-
-                <input type="checkbox"> Please subscribe me to the newsletter<br><br>
-
-                <button>Get in Touch!</button>
-            </form>
-        </section>
-        <section class="team">
-            <h2>We Are Here to Serve You</h2>
-            <div class="team-container">
-                <div class="employee">
-                    <img>
-                    <p>Employee Profile</p>
-                </div>
-                <div class="employee">
-                    <img>
-                    <p>Employee Profile</p>
-                </div>
-                <div class="employee">
-                    <img>
-                    <p>Employee Profile</p>
-                </div>
+    <main class="contact">
+        <section class="company-info">
+            <h1>Above the Water!</h1>
+            <div name="address">
+                <p>123 Main River Street</p>
+                <p>Kolob, California</p>
+                <p>+1 999 999 9999</p>
+                <p>info@abovethewater.com</p>
             </div>
+        </section>
+        <img src="images/maps.jpg"
+          alt="Google maps shot of the approximate place of above the water rafting river.">
+        <form class="user-info">
+            <div class="question-item name-question">
+                <label for="username">Name</label>
+                <input id="username" name="username" type="text" placeholder="Placeholder"
+                  style="height: 2rem">
+            </div>
+
+            <div class="question-item email-question">
+                <label for="useremail">Email</label>
+                <input id="useremail" name="useremail" type="text" placeholder="Placeholder"
+                  style="height: 2rem">
+            </div>
+
+            <div class="question-item purpose-question">
+                <p>Message Purpose</p>
+                <div>
+                    <input type="radio" name="purpose" id="general-inq" value="general inquiry">
+                    <label for="general-inq">General Inquiry</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="purpose" id="reservation-ques"
+                      value="reservation question">
+                    <label for="reservation-ques">Reservation Question</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="purpose" id="website-sugg" value="website suggestion">
+                    <label for="website-sugg">Website Suggestion</label>
+                </div>
+
+            </div>
+
+            <div class="question-item">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder=" Type here"></textarea>
+            </div>
+
+            <div class="question-item subscribe-question">
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+            </div>
+
+            <button type="submit">Get in Touch!</button>
+        </form>
+
+        <section class="face-card">
+            <h2>We Are Here to Serve You</h2>
+            <figure class="alex">
+                <img src="images/alex.jpg" alt="Picture of Alex, employee in Above The Water!">
+                <figcaption>Alex</figcaption>
+            </figure>
+            <figure class="bianca">
+                <img src="images/bianca.jpg" alt="Picture of Bianca, employee in Above The Water!">
+                <figcaption>Bianca</figcaption>
+            </figure>
+            <figure class="carol">
+                <img src="images/carol.jpg" alt="Picture of Carol, employee in Above The Water!">
+                <figcaption>Carol</figcaption>
+            </figure>
         </section>
     </main>
     <footer>
