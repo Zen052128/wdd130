@@ -299,3 +299,72 @@ button:hover {
 figcaption {
     text-align: center;
 }
+
+.hook {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.hook img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 0;
+    position: block;
+}
+
+.hook h1 {
+    position: absolute;
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 250px;
+    top: 25px;
+    padding: 1rem;
+    background-color: rgb(0 66 117 / 70%);
+    border-radius: 1rem;
+}
+
+.hook h2 {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    bottom: 100px;
+    left: 260px;
+    color: var(--accent2-color);
+    -webkit-text-stroke: .2px white;
+}
+
+.hook button {
+    position: relative;
+    bottom: 50px;
+    left: 365px;
+    padding: 0.5rem;
+    width: 6rem;
+}
+
+.hook-info {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px 1fr;
+    margin: 0;
+    border: 0;
+    background-color: #61BBFF;
+    color: black;
+    align-items: center;
+
+}
+
+.hook-info h3 {
+    place-self: center;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hook-info p {
+    text-align: center;
+}
