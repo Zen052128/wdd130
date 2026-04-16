@@ -368,3 +368,77 @@ figcaption {
 .hook-info p {
     text-align: center;
 }
+
+.hook-info img {
+    height: auto;
+    width: 300px;
+    margin-top: 30px;
+    place-self: center;
+    border: 1px solid black;
+}
+
+.join-us {
+    width: 70%;
+    place-self: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 66 117 / 30%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 50px 1fr;
+    color: black;
+}
+
+.join-us h2 {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    padding: .5rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.join-name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    place-self: center;
+    text-align: center;
+}
+
+.join-name input {
+    padding: 5px;
+    width: 400px;
+    margin: 20px;
+}
+
+.join-name label {
+    margin: 30px;
+}
+
+.join-email {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    place-self: center;
+    text-align: center;
+}
+
+.join-email input {
+    padding: 5px;
+    width: 400px;
+    margin: 20px;
+}
+
+.join-email label {
+    margin: 30px;
+}
+
+.join-us button {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    place-self: center;
+    margin-top: 20px;
+}
